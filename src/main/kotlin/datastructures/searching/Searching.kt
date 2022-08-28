@@ -14,10 +14,9 @@ fun main() {
  */
 fun search(type: SearchTypes) {
     val array = mutableListOf<Int>()
-    var size: Int = 0
 
     print("Enter the size of elements in the list: ")
-    size = readln().toInt()
+    val size: Int = readln().toInt()
 
     for (i in 1..size) {
         print("Enter element $i: ")
