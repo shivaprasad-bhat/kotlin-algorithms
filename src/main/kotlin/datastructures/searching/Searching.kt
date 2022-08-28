@@ -1,7 +1,7 @@
 package datastructures.searching
 
 fun main() {
-    print("Choose the searching type ->\n 1. Linear Search.\n 2. Binary Search.\n------->")
+    print("Choose the searching type ->\n 1. Linear Search.\n 2. Binary Search.\n-------> ")
     when (readln().toInt()) {
         1 -> search(SearchTypes.LINEAR)
         2 -> search(SearchTypes.BINARY)
