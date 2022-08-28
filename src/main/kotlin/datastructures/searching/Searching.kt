@@ -9,6 +9,9 @@ fun main() {
     }
 }
 
+/**
+ * Function that performs search and publishes the result
+ */
 fun search(type: SearchTypes) {
     val array = mutableListOf<Int>()
     var size: Int = 0
